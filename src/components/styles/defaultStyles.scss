@@ -1,8 +1,11 @@
-body{   
-background: #7700D1;
-color: #FFFFFF;
+@import 'fonts.scss';
+
+body {
+    background: #7700D1;
+    color: #FFFFFF;
 }
-a{
+
+a {
     text-decoration: none;
     color: #FFFFFF;
 }

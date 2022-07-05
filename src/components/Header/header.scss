@@ -1,2 +1,95 @@
-.header{
+.header {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-navbar {
+    width: 330px;
+    margin-top: 46px;
+
+    a {
+        padding-right: 15%;
+        font-family: 'Golos';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+.logo-rectangle {
+    background: #FFFFFF;
+    border-radius: 0px 0px 43px 43px;
+    width: 220px;
+    height: 122.68px;
+    margin-top: -7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h4 {
+        color: #4C0085;
+        font-family: 'Russo One', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 10px;
+    }
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+
+}
+.header-contacts__container{
+    display: flex;
+}
+
+.header-info__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+}
+
+.number-link {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.header-work__info {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 2px 0 0 0;
+}
+.header-sotial{
+    display: flex;
+    margin-left: 26px;
+}
+.header-rectangle{
+    width: 60px;
+height: 40px;
+background: #48DB45;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 6px;
+margin-top: 41px;
+&:last-child{
+    background: #02ADFF;
+}
 }
