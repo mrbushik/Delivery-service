@@ -1,8 +1,8 @@
 import React from 'react'
+import { useForm } from "react-hook-form";
+import axios from 'axios';
 import styled from 'styled-components'
 import './LeadForm.scss'
-import { useForm } from "react-hook-form";
-
 
 const PrivacyPolicyLink = styled.a`
 border-bottom: 1px dashed #FFFFFF;
@@ -12,9 +12,16 @@ margin-left: 3px;
 
 function LeadForm({buttonText}) {
     const [isChecked, setIsChecked] = React.useState(false);
-    const { register, handleSubmit, formState:{ errors } } = useForm();
-    const onSubmit = data => console.log(data);
-    
+    const { register, handleSubmit,reset, formState:{ errors } } = useForm({
+      defaultValues: {
+        number: '',
+      }
+    });
+    const onSubmit = data => {
+      axios.post(`https://jsonplaceholder.typicode.com/users`,{data})
+      .then(response => response)
+      reset()
+    };
   return (
     <>
     <div className="container">
@@ -23,13 +30,13 @@ function LeadForm({buttonText}) {
         <input 
         {...register("number",{ required: true })}
         type="text" placeholder='Введите номер телефона'/>
-          {errors.number && <p>В поле ничего нет, напишите ваш номер телефона</p>}
         <button type="submit">{buttonText}</button> 
         </div>
         <div className="lead-checkbox__container">
     <label className='checkbox-wrapper'>
       <input
         type="checkbox"
+        {...register("ConfirmPrivacyPolicy",{ required: true })}
         onChange={() => {
           setIsChecked(!isChecked);
         }}
@@ -43,6 +50,10 @@ function LeadForm({buttonText}) {
         {isChecked 
         ? <PrivacyPolicyLink href='##'>политикой конфиденциальности</PrivacyPolicyLink>
         : <a className='privacy-policy__link' href='##'>политикой конфиденциальности</a>}</p>
+        </div>
+        <div className='form-errors'>
+        {errors.number && <p>В поле ничего нет, напишите ваш номер телефона</p>}
+          {errors.ConfirmPrivacyPolicy && !isChecked && <p>Требуется согласие с политикой конфиденциальности</p>}
         </div>
     </form>
     </div>
