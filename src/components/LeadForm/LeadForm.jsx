@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import './LeadForm.scss'
+import { useForm } from "react-hook-form";
+
 
 const PrivacyPolicyLink = styled.a`
 border-bottom: 1px dashed #FFFFFF;
@@ -10,12 +12,18 @@ margin-left: 3px;
 
 function LeadForm({buttonText}) {
     const [isChecked, setIsChecked] = React.useState(false);
+    const { register, handleSubmit, formState:{ errors } } = useForm();
+    const onSubmit = data => console.log(data);
+    
   return (
     <>
     <div className="container">
-    <form className="lead-form">
+    <form onSubmit={handleSubmit(onSubmit)} className="lead-form">
         <div className="lead-container">
-        <input type="text" placeholder='Введите номер телефона'/>
+        <input 
+        {...register("number",{ required: true })}
+        type="text" placeholder='Введите номер телефона'/>
+          {errors.number && <p>В поле ничего нет, напишите ваш номер телефона</p>}
         <button type="submit">{buttonText}</button> 
         </div>
         <div className="lead-checkbox__container">
