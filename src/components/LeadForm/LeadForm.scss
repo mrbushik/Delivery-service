@@ -1,0 +1,117 @@
+.lead-form {
+    margin-top: 44px;
+}
+
+.lead-container {
+    display: flex;
+    justify-content: center;
+
+    input {
+        width: 284px;
+        height: 86px;
+        background: #FFFFFF;
+        border-radius: 43px;
+        border: none;
+        outline: none;
+        padding-left: 33px;
+        font-family: 'Golos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        color: #4C0085;
+        margin-right: 10px;
+
+        &:focus {
+            font-family: 'Golos';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+
+    button {
+        width: 284px;
+        height: 86px;
+        background: linear-gradient(180deg, #FFE149 0%, #FFD500 100%);
+        border-radius: 43px;
+        border: none;
+        font-family: 'Golos';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 30px;
+        color: #3E3300;
+
+        &:hover {
+            background: #FFD500;
+        }
+    }
+}
+
+.checkbox-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+}
+
+input[type="checkbox"] {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+}
+
+.checkbox--active {
+    background-image: url(../../icons/img/check.png);
+    width: 10px;
+    height: 8px;
+    background-repeat: no-repeat;
+    .privacy-policy__link{
+        opacity: 1;
+    }
+}
+.checkbox--active .privacy-policy__link{
+    opacity: 1;
+}
+
+.lead-checkbox__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        margin: 0;
+        margin-left: 10px;
+        font-family: 'Golos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+    }
+}
+.privacy-policy__link{
+    border-bottom: 1px dashed #FFFFFF;
+    opacity: 0.45;
+    margin-left: 3px;
+}
