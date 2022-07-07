@@ -2,7 +2,8 @@
     width: 100%;
     border: 3px solid;
     margin-top: -4px;
-    &-map{
+
+    &-map {
         margin-top: -260px;
     }
 }
@@ -23,10 +24,6 @@
 
     svg:last-child {
         margin-left: 10%;
-        // margin-left: 10%;
-        // width: 24%;
-        // height: auto;
-
     }
 }
 
@@ -34,9 +31,8 @@
     svg {
         position: absolute;
         margin-top: 35px;
-        width: 76%;
-        margin-left: 14%;
-        overflow: hidden;
+        width: 100%;
+        margin-left: 81px;
         overflow-y: hidden;
         overflow-x: hidden;
     }
@@ -47,10 +43,37 @@
     position: absolute;
     margin-top: 205px;
     margin-left: 30px;
+
 }
-.background-image__minicloud{
+
+.background-image__minicloud {
     margin-left: 953px;
     position: absolute;
     margin-top: 313px;
-  
+
+}
+
+.background-image__sun {
+    position: absolute;
+    margin-left: 1432px;
+}
+
+.background__cloud {
+    position: absolute;
+    margin-left: 300px;
+    margin-left: 1100px;
+    margin-top: 100px;
+}
+.achievements-deliveo__container{
+    position: absolute;
+}
+.achievements-round{
+    
+background: #FFFFFF;
+width: 128px;
+height: 118px;
+border-radius: 50%;
+}
+.car-icon{
+    margin-left: 175px;
 }

@@ -2,7 +2,8 @@ import {StyledStrokedIcon} from "./icon";
 import React from "react";
 
 export const Car = () => (
-	<StyledStrokedIcon
+	<div className='car-icon'>
+<StyledStrokedIcon
 	width="360" height="177" viewBox="0 0 360 177" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clipPath="url(#clip0_2_1198)">
 <rect x="76.4819" y="4.41724" width="159.599" height="117.65" fill="#7700D1"/>
@@ -51,4 +52,6 @@ export const Car = () => (
 </clipPath>
 </defs>
 	</StyledStrokedIcon>
+	</div>
+	
 );

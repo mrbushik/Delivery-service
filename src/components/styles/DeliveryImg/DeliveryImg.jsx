@@ -19,7 +19,21 @@ function DeliveryImg() {
         <div className='background-image__minicloud'>
             <MiniCloud/>
         </div>
+        <div className='background__cloud'>
+            <Cloud/>
+        </div>
+        <div className='background-image__sun'>
+            <Sun/>
+        </div>
     </div>
+    {/* <div className='achievements-deliveo__container'>
+        <div className='achievements-round'>
+        <p className='achievements-present'>97%</p>
+        <p className='achievements-title'>заказов</p>
+        </div>
+        <h5 className='achievements-description'>доставили вовремя в декабре 2022</h5>
+       
+    </div> */}
         <div className='image-container'>
         <Warehouse/>
         <Car/>
