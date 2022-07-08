@@ -10,6 +10,10 @@ import { Road } from './road'
 import { Sun } from './sun'
 import { Cloud } from './cloud'
 import {MiniCloud } from './miniCloud'
+import { LeftMark } from './leftMark'
+import { RightMark } from './rightMark'
+import { BackgroundPrice } from './backgroundPrice'
+import { CarPrice } from './carPrice'
 export{
     Watch,
     WhatsApp,
@@ -23,4 +27,8 @@ export{
     Sun,
     Cloud,
     MiniCloud,
+    LeftMark,
+    RightMark,
+    BackgroundPrice,
+    CarPrice,
 }
