@@ -2,8 +2,9 @@ import {StyledStrokedIcon} from "./icon";
 import React from "react";
 
 export const House = () => (
-	<StyledStrokedIcon
-	width="457" height="582" viewBox="0 0 457 582" fill="none" xmlns="http://www.w3.org/2000/svg">
+<div className="house-img">
+<StyledStrokedIcon 
+	width="432" height="582" viewBox="0 0 457 582" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clipPath="url(#clip0_2_1171)">
 <path d="M331.8 561.6H126C121.943 561.6 118.65 564.893 118.65 568.95V583.65C118.65 587.707 121.943 591 126 591C130.057 591 133.35 587.707 133.35 583.65V576.3H331.8C335.856 576.3 339.149 573.008 339.149 568.951C339.149 564.894 335.857 561.6 331.8 561.6Z" fill="white" stroke="#7700D1" strokeWidth="10"/>
 <path d="M177.45 333.75C177.45 337.806 180.742 341.099 184.799 341.099H214.2C218.257 341.099 221.55 337.806 221.55 333.75V289.65C221.55 285.593 218.257 282.3 214.2 282.3H184.8C180.743 282.3 177.45 285.593 177.45 289.65V333.75H177.45ZM192.15 297H206.85V326.4H192.15V297Z" fill="white" stroke="#7700D1" strokeWidth="10"/>
@@ -37,4 +38,5 @@ export const House = () => (
 </clipPath>
 </defs>
 	</StyledStrokedIcon>
+</div>
 );

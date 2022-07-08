@@ -2,7 +2,8 @@ import {StyledStrokedIcon} from "./icon";
 import React from "react";
 
 export const Warehouse = () => (
-	<StyledStrokedIcon
+	<div className="warehouse-img">
+            <StyledStrokedIcon
 	width="537"
      height="311" 
      viewBox="0 0 537 311" 
@@ -58,4 +59,5 @@ export const Warehouse = () => (
 </clipPath>
 </defs>
 	</StyledStrokedIcon>
+      </div>
 );

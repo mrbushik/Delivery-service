@@ -3,8 +3,8 @@ import React from "react";
 
 export const Car = () => (
 	<div className='car-icon'>
-<StyledStrokedIcon
-	width="360" height="177" viewBox="0 0 360 177" fill="none" xmlns="http://www.w3.org/2000/svg">
+<StyledStrokedIcon 
+	width="285" height="176" viewBox="0 0 360 177" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clipPath="url(#clip0_2_1198)">
 <rect x="76.4819" y="4.41724" width="159.599" height="117.65" fill="#7700D1"/>
 <path d="M206.627 42.0127L281.718 44.7271L309.376 71.2188L347.77 108.926L354.139 118.401L356.686 129.036L354.139 146.596L339.043 148.69L335.054 149.887L206.627 152.942V42.0127Z" fill="#7700D1"/>

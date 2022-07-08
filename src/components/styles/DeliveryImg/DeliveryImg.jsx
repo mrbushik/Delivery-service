@@ -6,7 +6,7 @@ import './diliveryImg.scss'
 function DeliveryImg() {
   return (
     <>
-    <div className='road-map'>
+    {/* <div className='road-map'>
     <Road/>
     </div>
      <div className='background-image__house'>
@@ -25,7 +25,7 @@ function DeliveryImg() {
         <div className='background-image__sun'>
             <Sun/>
         </div>
-    </div>
+    </div> */}
     {/* <div className='achievements-deliveo__container'>
         <div className='achievements-round'>
         <p className='achievements-present'>97%</p>
@@ -35,6 +35,7 @@ function DeliveryImg() {
        
     </div> */}
         <div className='image-container'>
+            
         <Warehouse/>
         <Car/>
         <House/>

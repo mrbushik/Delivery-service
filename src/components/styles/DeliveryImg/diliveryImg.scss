@@ -18,19 +18,38 @@
 }
 
 .image-container {
-    display: ruby;
-    position: relative;
-    z-index: 8;
+    margin-top: 400px;
 
-    svg:last-child {
-        margin-left: 10%;
+    svg {
+        position: absolute;
+    }
+
+}
+
+.warehouse-img {
+    svg {
+        margin-top: -314px;
+    }
+}
+
+.car-icon {
+    svg {
+        margin-top: -161px;
+        margin-left: 411px;
+    }
+}
+
+.house-img {
+    svg {
+        margin-top: -570px;
+        margin-left: 1020px;
     }
 }
 
 .road-map {
     svg {
         position: absolute;
-        margin-top: 35px;
+        margin-top: 38px;
         width: 100%;
         margin-left: 81px;
         overflow-y: hidden;
@@ -50,12 +69,12 @@
     margin-left: 953px;
     position: absolute;
     margin-top: 313px;
-
 }
 
 .background-image__sun {
     position: absolute;
     margin-left: 1432px;
+    margin-top: -40px;
 }
 
 .background__cloud {
@@ -64,16 +83,73 @@
     margin-left: 1100px;
     margin-top: 100px;
 }
-.achievements-deliveo__container{
+
+.achievements-deliveo__container {
     position: absolute;
 }
-.achievements-round{
-    
-background: #FFFFFF;
-width: 128px;
-height: 118px;
-border-radius: 50%;
+
+.achievements-round {
+
+    background: #FFFFFF;
+    width: 128px;
+    height: 118px;
+    border-radius: 50%;
 }
-.car-icon{
+
+.car-icon {
     margin-left: 175px;
+}
+
+.achievements-round {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 87px;
+    margin-left: 283px;
+    margin-left: 277px;
+}
+
+.achievements-present {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    color: #4C0085;
+    margin: 0;
+    transform: rotate(-21.24deg);
+    height: 24px;
+    margin-left: -10px;
+
+}
+
+.achievements-title {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 56px;
+    color: #4C0085;
+    margin: 0;
+    transform: rotate(-21.24deg);
+    height: 43px;
+    margin-left: 5px;
+}
+
+.achievements-description {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 136px;
+    transform: rotate(-21.24deg);
+    position: absolute;
+    margin-left: 308px;
+    margin-top: 211px;
+
 }
