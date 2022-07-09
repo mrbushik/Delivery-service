@@ -1,0 +1,100 @@
+.section-title__container {
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 55px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.section-subtitle {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.price-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 38px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+// .price-table-row {
+//     width: 129px;
+//     height: 76px;
+//     background: #FFFFFF;
+//     color: #7700D1;
+//     border: 1px solid #FFFFFF;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+
+
+//     &:first-child {
+//         height: 76px;
+//         width: 260px;
+//         background: #7700D1;
+//         border: 1px solid #FFFFFF;
+//         color: #FFFFFF;
+//         border-top-left-radius: 38px;
+//     }
+
+//     &:last-child {
+//         border-top-right-radius: 38px;
+//     }
+// }
+
+.price-tabe__description{
+    &:first-child{
+        border-top-left-radius: 38px;
+        background: #7700D1;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+    }
+    &:last-child{
+        border-bottom-left-radius: 38px;
+    }
+        width: 260px;
+        height: 76px;
+        background: #FFFFFF;
+        color: #7700D1;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #4C1D6F
+    }
+  .table-title__weight{
+    background: #7700D1;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+  }
+  .price-tabe__collomn{
+    width: 129px;
+        height: 76px;
+        background: #7700D1;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+
+
