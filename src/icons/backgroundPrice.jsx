@@ -2,7 +2,8 @@ import {StyledStrokedIcon} from "./icon";
 import React from "react";
 
 export const  BackgroundPrice = () => (
-	<StyledStrokedIcon
+	<div className="background-price__img">
+		<StyledStrokedIcon
     width="1916" height="436" viewBox="0 0 1916 436" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g opacity="0.05" clipPath="url(#clip0_2_782)">
 <path d="M-1.56506 436H1912.46C1914.41 436 1916 434.567 1916 432.802C1916 431.038 1914.41 429.604 1912.46 429.604H-1.56506C-3.51794 429.604 -5.10461 431.038 -5.10461 432.802C-5.10461 434.567 -3.51794 436 -1.56506 436Z" fill="white"/>
@@ -34,4 +35,5 @@ export const  BackgroundPrice = () => (
 </clipPath>
 </defs>
 	</StyledStrokedIcon>
+	</div>
 );

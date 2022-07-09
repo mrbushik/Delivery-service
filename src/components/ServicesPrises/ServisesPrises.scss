@@ -61,40 +61,108 @@
 //     }
 // }
 
-.price-tabe__description{
-    &:first-child{
+.price-tabe__description {
+    &:first-child {
         border-top-left-radius: 38px;
         background: #7700D1;
         color: #FFFFFF;
         border: 1px solid #FFFFFF;
     }
-    &:last-child{
+
+    &:last-child {
         border-bottom-left-radius: 38px;
     }
-        width: 260px;
-        height: 76px;
-        background: #FFFFFF;
-        color: #7700D1;
-        border: 1px solid #FFFFFF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid #4C1D6F
-    }
-  .table-title__weight{
+
+    width: 260px;
+    height: 76px;
+    background: #FFFFFF;
+    color: #7700D1;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4C1D6F
+}
+
+.table-title__weight {
     background: #7700D1;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
-  }
-  .price-tabe__collomn{
+}
+
+.price-tabe__collomn {
     width: 129px;
-        height: 76px;
-        background: #7700D1;
-        color: #FFFFFF;
-        border: 1px solid #FFFFFF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-  }
+    height: 76px;
+    background: #7700D1;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.price-tabe__main {
+    width: 129px;
+    height: 76px;
+    background: #FFFFFF;
+    color: #7700D1;
+    border: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4C1D6F;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
 
 
+}
+
+.table-title__before10 {
+    border-top-right-radius: 38px;
+}
+
+.price-tabe__last {
+    border-bottom-right-radius: 38px;
+
+}
+
+.background-price__img {
+    svg {
+        position: absolute;
+        margin-top: -434px;
+        margin-left: -320px;
+    }
+}
+
+.left-mark {
+    svg {
+        position: absolute;
+        width: 20%;
+        margin-top: -295px;
+        margin-left: 61px;
+    }
+}
+
+.right-mark {
+    svg {
+        width: 20%;
+        position: absolute;
+        margin-top: -640px;
+        margin-left: 1130px;
+    }
+}
+
+.price-cloud {
+    position: absolute;
+    margin-top: -560px;
+    margin-left: 150px;
+
+}
+
+.price-minicloud {
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 1200px;
+}
