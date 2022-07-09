@@ -164,5 +164,20 @@
 .price-minicloud {
     position: absolute;
     margin-top: -450px;
-    margin-left: 1200px;
+    margin-left: 1350px;
+}
+
+.table-plus {
+    svg {
+        position: absolute;
+        margin-top: -450px;
+        margin-left: 1250px;
+
+        &:first-child {
+            position: absolute;
+            margin-top: -330px;
+            margin-left: 180px;
+
+        }
+    }
 }

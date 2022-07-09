@@ -14,6 +14,7 @@ import { LeftMark } from './leftMark'
 import { RightMark } from './rightMark'
 import { BackgroundPrice } from './backgroundPrice'
 import { CarPrice } from './carPrice'
+import { Plus } from './plus'
 export{
     Watch,
     WhatsApp,
@@ -31,4 +32,5 @@ export{
     RightMark,
     BackgroundPrice,
     CarPrice,
+    Plus,
 }

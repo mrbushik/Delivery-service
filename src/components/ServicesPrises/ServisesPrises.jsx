@@ -1,7 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
 import './ServisesPrises.scss'
-import { BackgroundPrice,LeftMark, RightMark, Cloud, MiniCloud } from '../../icons'
+import { BackgroundPrice,LeftMark, RightMark, Cloud, MiniCloud, Plus } from '../../icons'
 
 function ServisesPrises() {
   return (
@@ -78,6 +78,10 @@ function ServisesPrises() {
 </div>
 <div className="price-minicloud">
   <MiniCloud/>
+</div>
+<div className="table-plus">
+  <Plus/>
+  <Plus/>
 </div>
     </>
   )
