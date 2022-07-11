@@ -67,6 +67,7 @@
         background: #7700D1;
         color: #FFFFFF;
         border: 1px solid #FFFFFF;
+        border-right: 1px solid transparent;
     }
 
     &:last-child {
@@ -74,20 +75,22 @@
     }
 
     width: 260px;
-    height: 76px;
+    height: 76.2px;
     background: #FFFFFF;
     color: #7700D1;
     border: 1px solid #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #4C1D6F
+    border: 1px solid #4C1D6F;
+    border-right: 1px solid transparent;
 }
 
 .table-title__weight {
     background: #7700D1;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
+    border-bottom: 1px;
 }
 
 .price-tabe__collomn {

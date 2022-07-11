@@ -4,6 +4,7 @@ import HeaderText from '../components/HeaderText/HeaderText'
 import LeadForm from '../components/LeadForm/LeadForm'
 import DeliveryImg from '../components/styles/DeliveryImg/DeliveryImg'
 import ServisesPrises  from '../components/ServicesPrises/ServisesPrises'
+import Processes from '../components/Processes/Processes'
 
 function mainPage() {
   return (
@@ -13,6 +14,7 @@ function mainPage() {
     <LeadForm buttonText='ПЕРЕЗВОНИТЕ МНЕ'/>
     <DeliveryImg/>
     <ServisesPrises/>
+    <Processes/>
     </>
   )
 }
