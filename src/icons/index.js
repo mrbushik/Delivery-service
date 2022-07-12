@@ -18,6 +18,7 @@ import { Plus } from './plus'
 import { LeftBoks } from './leftBoks'
 import { RightBoks } from './rightBoks'
 import {BgWareHouse } from './bgWareHouse'
+import { RightWareHouse } from './rightWareHouse'
 export{
     Watch,
     WhatsApp,
@@ -39,4 +40,5 @@ export{
     LeftBoks,
     RightBoks,
     BgWareHouse,
+    RightWareHouse,
 }

@@ -1,24 +1,63 @@
-.processes-plus{
+.processes-plus {
     display: flex;
-justify-content: center;
-margin-top: 50px;
+    justify-content: center;
+    margin-top: 50px;
 }
-.processes-title{
+
+.processes-title {
     margin-top: 68px;
 }
-.processes-rectangles{
+
+.processes-rectangles {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.processes-more__link{
+
+.processes-more__link {
     font-family: 'Golos';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-display: block;
-margin: 30px auto 0;
-border-bottom: 1px dashed #FFFFFF;
-width: 86px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin: 30px auto 0;
+    border-bottom: 1px dashed #FFFFFF;
+    width: 86px;
+}
+
+.processes-warehouse {
+    svg {
+        &:first-child {
+            position: absolute;
+            left: 0px;
+            width: 20%;
+            margin-top: -365px;
+            height: auto;
+        }
+
+        &:last-child {
+            position: absolute;
+            right: 0;
+            width: 20%;
+            margin-top: -365px;
+            height: auto;
+        }
+    }
+}
+
+.processes-clouds {
+    svg {
+        &:first-child {
+            position: absolute;
+            margin-top: -600px;
+            margin-left: 100px;
+        }
+
+        &:last-child {
+            position: absolute;
+            margin-top: -700px;
+            margin-left: 1300px;
+        }
+    }
 }

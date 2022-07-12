@@ -1,5 +1,5 @@
 import React from 'react'
-import {Cloud, LeftBoks, MiniCloud, Plus , RightBoks,BgWareHouse} from '../../icons'
+import {Cloud, LeftBoks, MiniCloud, Plus , RightBoks,BgWareHouse,RightWareHouse} from '../../icons'
 import classNames from 'classnames'
 import './processes.scss'
 import InfoRectangle from '../InfoRectangle/InfoRectangle'
@@ -41,7 +41,14 @@ return (
         </div>
         <a href="##" className='processes-more__link'>Подробнее</a>
     </div>
+    <div className="processes-warehouse">
     <BgWareHouse/>
+    <RightWareHouse/>
+    </div>
+  <div className="processes-clouds">
+  <MiniCloud/>
+<Cloud/>
+  </div>
 </>
 )
 }
