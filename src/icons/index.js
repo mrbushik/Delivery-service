@@ -15,6 +15,9 @@ import { RightMark } from './rightMark'
 import { BackgroundPrice } from './backgroundPrice'
 import { CarPrice } from './carPrice'
 import { Plus } from './plus'
+import { LeftBoks } from './leftBoks'
+import { RightBoks } from './rightBoks'
+import {BgWareHouse } from './bgWareHouse'
 export{
     Watch,
     WhatsApp,
@@ -33,4 +36,7 @@ export{
     BackgroundPrice,
     CarPrice,
     Plus,
+    LeftBoks,
+    RightBoks,
+    BgWareHouse,
 }
