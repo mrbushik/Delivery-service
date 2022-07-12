@@ -5,6 +5,7 @@ import LeadForm from '../components/LeadForm/LeadForm'
 import DeliveryImg from '../components/styles/DeliveryImg/DeliveryImg'
 import ServisesPrises  from '../components/ServicesPrises/ServisesPrises'
 import Processes from '../components/Processes/Processes'
+import PayMethods from '../components/PayMethods/PayMethods'
 
 function mainPage() {
   return (
@@ -15,6 +16,7 @@ function mainPage() {
     <DeliveryImg/>
     <ServisesPrises/>
     <Processes/>
+    <PayMethods/>
     </>
   )
 }
