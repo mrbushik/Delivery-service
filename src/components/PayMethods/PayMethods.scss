@@ -1,0 +1,69 @@
+.processes-decription {
+    p {
+        font-family: 'Golos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 25px;
+
+        &:last-child {
+            margin-bottom: 44px;
+        }
+    }
+}
+
+.methods-building__container {
+    position: absolute;
+    margin-top: -530px;
+}
+
+.pay-terminal__img {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.left-building__container {
+    display: flex;
+    justify-content: right;
+    margin-top: -530px;
+}
+
+.methods-sun {
+    display: flex;
+    justify-content: right;
+    margin-top: -600px;
+}
+
+.methods-clouds {
+    svg {
+        position: absolute;
+        margin-top: 75px;
+        margin-left: 800px;
+
+        &:first-child {
+            margin-left: 250px;
+            margin-top: -50px;
+        }
+    }
+}
+
+.methods-plus__container {
+    svg {
+        position: absolute;
+        margin-left: 720px;
+        margin-top: 30px;
+
+        &:first-child {
+            position: absolute;
+            margin-top: 110px;
+            margin-left: 300px;
+        }
+
+        &:last-child {
+            margin-top: 450px;
+            margin-left: 574px;
+        }
+    }
+}

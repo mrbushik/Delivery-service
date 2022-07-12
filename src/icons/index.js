@@ -19,6 +19,9 @@ import { LeftBoks } from './leftBoks'
 import { RightBoks } from './rightBoks'
 import {BgWareHouse } from './bgWareHouse'
 import { RightWareHouse } from './rightWareHouse'
+import { PayTerminal } from './payTerminat'
+import { LeftBuilding } from './leftBilding'
+import { RightBuilding } from './rightBilding'
 export{
     Watch,
     WhatsApp,
@@ -41,4 +44,7 @@ export{
     RightBoks,
     BgWareHouse,
     RightWareHouse,
+    PayTerminal,
+    LeftBuilding,
+    RightBuilding,
 }

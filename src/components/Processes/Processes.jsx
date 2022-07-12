@@ -1,5 +1,5 @@
 import React from 'react'
-import {Cloud, LeftBoks, MiniCloud, Plus , RightBoks,BgWareHouse,RightWareHouse} from '../../icons'
+import {Cloud, MiniCloud, Plus,BgWareHouse,RightWareHouse} from '../../icons'
 import classNames from 'classnames'
 import './processes.scss'
 import InfoRectangle from '../InfoRectangle/InfoRectangle'
