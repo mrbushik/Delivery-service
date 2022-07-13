@@ -7,6 +7,7 @@ import ServisesPrises  from '../components/ServicesPrises/ServisesPrises'
 import Processes from '../components/Processes/Processes'
 import PayMethods from '../components/PayMethods/PayMethods'
 import ImportantInfo from '../components/ImportantInfo/ImportantInfo'
+import DiliveryStatus from '../components/DivileryStatus/DiliveryStatus'
 
 function mainPage() {
   return (
@@ -19,6 +20,7 @@ function mainPage() {
     <Processes/>
     <PayMethods/>
     <ImportantInfo/>
+    <DiliveryStatus/>
     </>
   )
 }
