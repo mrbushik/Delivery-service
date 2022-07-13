@@ -23,6 +23,9 @@ import { PayTerminal } from './payTerminat'
 import { LeftBuilding } from './leftBilding'
 import { RightBuilding } from './rightBilding'
 import { Iicons } from './iIcons'
+import { Phone } from './phone'
+import {Bell } from './bell'
+import {MiniCar } from './miniCar'
 export{
     Watch,
     WhatsApp,
@@ -49,4 +52,7 @@ export{
     LeftBuilding,
     RightBuilding,
     Iicons,
+    Phone,
+    Bell,
+    MiniCar,
 }

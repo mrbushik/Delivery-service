@@ -12,3 +12,35 @@ max-width: 820px;
 margin: 30px auto 0;
 line-height: 30px;
 }
+.dilivery-status__container{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.dilivery-status__item{
+    max-width: 370px;
+height: auto;
+border: 2px solid #FFFFFF;
+border-radius: 38px;
+text-align: center;
+margin-right: 30px;
+svg{
+margin: 50px auto 0;
+display: block;
+max-width: 25px;
+}
+h4{
+    font-family: 'Golos';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+margin-top: 30px;
+margin-bottom: 24px;
+}
+p{
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 0 2% 40px;
+}
+}
