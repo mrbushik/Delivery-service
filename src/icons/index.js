@@ -22,6 +22,7 @@ import { RightWareHouse } from './rightWareHouse'
 import { PayTerminal } from './payTerminat'
 import { LeftBuilding } from './leftBilding'
 import { RightBuilding } from './rightBilding'
+import { Iicons } from './iIcons'
 export{
     Watch,
     WhatsApp,
@@ -47,4 +48,5 @@ export{
     PayTerminal,
     LeftBuilding,
     RightBuilding,
+    Iicons,
 }
