@@ -26,6 +26,8 @@ import { Iicons } from './iIcons'
 import { Phone } from './phone'
 import {Bell } from './bell'
 import {MiniCar } from './miniCar'
+import { DiliveryInfoBg } from './DiliveryInfoBg'
+import { DiliveryCarBg } from './DiliveryCarBg'
 export{
     Watch,
     WhatsApp,
@@ -55,4 +57,6 @@ export{
     Phone,
     Bell,
     MiniCar,
+    DiliveryInfoBg,
+    DiliveryCarBg,
 }

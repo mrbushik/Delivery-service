@@ -3,7 +3,11 @@ import './DiliveryStatus.scss'
 import classNames from 'classnames'
 import { Phone,
     Bell,
-    MiniCar,} from '../../icons'
+    MiniCar,
+Cloud,
+DiliveryInfoBg,
+DiliveryCarBg,
+Plus} from '../../icons'
 
 
 function DiliveryStatus() {
@@ -33,7 +37,12 @@ function DiliveryStatus() {
             </div>
         </div>
         </div>
-        
+        <div className="dilivery-status__bg">
+        <DiliveryInfoBg/>
+        <DiliveryCarBg/>
+        <Plus/>
+        <Cloud/>
+        </div>
     </section>
   )
 }
