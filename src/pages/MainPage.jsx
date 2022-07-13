@@ -6,6 +6,7 @@ import DeliveryImg from '../components/styles/DeliveryImg/DeliveryImg'
 import ServisesPrises  from '../components/ServicesPrises/ServisesPrises'
 import Processes from '../components/Processes/Processes'
 import PayMethods from '../components/PayMethods/PayMethods'
+import ImportantInfo from '../components/ImportantInfo/ImportantInfo'
 
 function mainPage() {
   return (
@@ -17,6 +18,7 @@ function mainPage() {
     <ServisesPrises/>
     <Processes/>
     <PayMethods/>
+    <ImportantInfo/>
     </>
   )
 }
