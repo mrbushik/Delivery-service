@@ -1,31 +1,34 @@
-.importantInfo-rectngle{
-max-width: 1380px;
-height: auto;
-background: #FFFFFF;
-border-radius: 38px;
-margin: 535px auto 0;
-padding-bottom: 40px;
+.importantInfo-rectngle {
+    max-width: 1380px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 38px;
+    margin: 535px auto 0;
+    padding-bottom: 40px;
 }
-.importantInfo-title{
+
+.importantInfo-title {
     font-family: 'Museo Sans Cyrl';
-font-style: normal;
-font-weight: 400;
-font-size: 46px;
-line-height: 55px;
-text-align: center;
-color: #4C0085;
-padding-top: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 55px;
+    text-align: center;
+    color: #4C0085;
+    padding-top: 100px;
 }
-.important-transition__info{
+
+.important-transition__info {
     font-family: 'Golos';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 30px;
-color: #4C0085;
-margin: 2px 0 0 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #4C0085;
+    margin: 2px 0 0 0;
 }
-.important-containers__wraper{
+
+.important-containers__wraper {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
