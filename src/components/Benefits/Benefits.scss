@@ -1,3 +1,10 @@
+
+.benefit-rounds-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
 .benefits-title {
     font-family: 'Museo Sans Cyrl';
     font-style: normal;
@@ -31,6 +38,29 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-right: 90px;
+
+    &:last-child {
+        width: 500px;
+        height: 500px;
+        margin-top: 20px;
+        margin-left: 20px;
+
+        p {
+            max-width: 370px;
+        }
+
+        a {
+            color: #4C0085;
+            margin-top: 20px;
+            font-family: 'Golos';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            border-bottom: 1px dashed #4C0085;
+        }
+    }
 
     &__title {
         font-family: 'Golos';
@@ -59,4 +89,5 @@
     background-repeat: no-repeat;
     width: 300px;
     height: 300px;
+    margin-top: 50px;
 }

@@ -1,7 +1,8 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import './Benefits.scss'
 import classNames from 'classnames'
-
+import Reviews from '../../icons/img/reviews.png'
 function Benefits() {
   return (
     <section>
@@ -18,6 +19,16 @@ function Benefits() {
         <div className="benefit-round">
             <h4 className="benefit-round__title">4000+</h4>
             <p className="benefit-round__subtitle">доставил минимум 4000 разных посылок</p>
+        </div>
+        <div className="benefit-round">
+            <h4 className="benefit-round__title">12</h4>
+            <p className="benefit-round__subtitle">собрал команду из 12 курьеров (пешие + авто)</p>
+        </div>
+        <div className="benefit-round">
+            <h4 className="benefit-round__title">2700+</h4>
+            <p className="benefit-round__subtitle">клиентов из YouDo оценили мою работу на 5 по статистике за 3 года работы — с 2019 по 2021</p>
+            <img src={Reviews}/>
+            <a href='##' className="benefit-round__link">Посмотреть профиль</a>
         </div>
        </div>
         </div>
