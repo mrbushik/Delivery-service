@@ -10,6 +10,7 @@ import ImportantInfo from '../components/ImportantInfo/ImportantInfo'
 import DiliveryStatus from '../components/DivileryStatus/DiliveryStatus'
 import Benefits from '../components/Benefits/Benefits'
 import SendAplication from '../components/SendAplication/SendAplication'
+import Footer from '../components/Footer/Footer'
 
 function mainPage() {
   return (
@@ -25,6 +26,7 @@ function mainPage() {
     <DiliveryStatus/>
     <Benefits/>
     <SendAplication/>
+    <Footer/>
     </>
   )
 }

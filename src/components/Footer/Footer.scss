@@ -1,0 +1,71 @@
+footer {
+    padding: 20px 40px 20px 0px;
+    background: #FFFFFF;
+    width: 100%;
+    margin-left: -10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo__container {
+    display: flex;
+
+    h4 {
+        font-family: 'Russo One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #4C0085;
+        margin-top: 10px;
+        margin-left: 10px;
+
+    }
+}
+
+.footer-owner__container {
+    p {
+        font-family: 'Golos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #4C0085;
+    }
+}
+
+.footer-privacy__container {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        font-family: 'Golos';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        color: #4C0085;
+        border-bottom: 1px dashed #4C0085;
+        width: fit-content;
+    }
+}
+
+.footer-contacts__container {
+    align-items: center;
+    margin-top: -23px;
+    display: flex;
+    color: #4C0085;
+
+    a {}
+}
+
+.footer-number__link {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4C0085;
+}
