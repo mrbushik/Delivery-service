@@ -1,10 +1,10 @@
-
-.benefit-rounds-wrapper{
+.benefit-rounds-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
 }
+
 .benefits-title {
     font-family: 'Museo Sans Cyrl';
     font-style: normal;
@@ -90,4 +90,18 @@
     width: 300px;
     height: 300px;
     margin-top: 50px;
+}
+
+.benefit-icons {
+    svg {
+        &:first-child {
+            position: absolute;
+            margin-top: -200px;
+            margin-left: 190px;
+        }
+
+        position: absolute;
+        margin-top: -600px;
+        margin-left: 1100px;
+    }
 }

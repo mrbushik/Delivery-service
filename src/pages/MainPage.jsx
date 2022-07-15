@@ -9,6 +9,7 @@ import PayMethods from '../components/PayMethods/PayMethods'
 import ImportantInfo from '../components/ImportantInfo/ImportantInfo'
 import DiliveryStatus from '../components/DivileryStatus/DiliveryStatus'
 import Benefits from '../components/Benefits/Benefits'
+import SendAplication from '../components/SendAplication/SendAplication'
 
 function mainPage() {
   return (
@@ -23,6 +24,7 @@ function mainPage() {
     <ImportantInfo/>
     <DiliveryStatus/>
     <Benefits/>
+    <SendAplication/>
     </>
   )
 }

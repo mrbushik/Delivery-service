@@ -1,0 +1,24 @@
+.send-aplication-icons {
+    svg {
+        position: absolute;
+        margin-top: -100px;
+
+        &:first-child {
+            opacity: 0.05;
+            margin-left: 1100px;
+            margin-top: -223px;
+            width: 28%;
+        }
+
+        &:nth-child(3) {
+            margin-left: 248px;
+            margin-top: -151px;
+
+        }
+
+        &:last-child {
+            margin-left: 1100px;
+            margin-top: -220px;
+        }
+    }
+}

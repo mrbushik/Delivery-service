@@ -28,6 +28,7 @@ import {Bell } from './bell'
 import {MiniCar } from './miniCar'
 import { DiliveryInfoBg } from './DiliveryInfoBg'
 import { DiliveryCarBg } from './DiliveryCarBg'
+import { Tries } from './tries'
 export{
     Watch,
     WhatsApp,
@@ -59,4 +60,5 @@ export{
     MiniCar,
     DiliveryInfoBg,
     DiliveryCarBg,
+    Tries,
 }

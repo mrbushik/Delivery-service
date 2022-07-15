@@ -3,6 +3,7 @@ import React from 'react'
 import './Benefits.scss'
 import classNames from 'classnames'
 import Reviews from '../../icons/img/reviews.png'
+import {  Car,Cloud} from '../../icons'
 function Benefits() {
   return (
     <section>
@@ -32,7 +33,10 @@ function Benefits() {
         </div>
        </div>
         </div>
-        
+        <div className="benefit-icons">
+            <Car/>
+            <Cloud/>
+        </div>
     </section>
   )
 }
