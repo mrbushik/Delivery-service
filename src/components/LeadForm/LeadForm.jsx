@@ -2,6 +2,7 @@ import React from 'react'
 import { useForm } from "react-hook-form";
 import axios from 'axios';
 import styled from 'styled-components'
+import ThankToOrder from '../ThankToOrder/ThankToOrder';
 import './LeadForm.scss'
 
 const PrivacyPolicyLink = styled.a`
@@ -11,6 +12,7 @@ margin-left: 3px;
 `;
 
 function LeadForm({buttonText}) {
+  const [modal, setModal] = React.useState(false)
     const [isChecked, setIsChecked] = React.useState(false);
     const { register, handleSubmit,reset, formState:{ errors } } = useForm({
       defaultValues: {
@@ -21,6 +23,7 @@ function LeadForm({buttonText}) {
       axios.post(`https://jsonplaceholder.typicode.com/users`,{data})
       .then(response => response)
       reset()
+      setModal(true);
     };
   return (
     <>
@@ -57,6 +60,7 @@ function LeadForm({buttonText}) {
         </div>
     </form>
     </div>
+    {modal && <ThankToOrder/>}
     </>
   )
 }

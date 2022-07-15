@@ -1,0 +1,61 @@
+.thank-modal{
+    width: 570px;
+height: 500px;
+background: #FFFFFF;
+border-radius: 38px;
+position: fixed;
+top: 10vh;
+left: 30vw;
+z-index: 111;
+transform: translate(-16%, 5%);
+color: #4C1978;
+text-align: center;
+h3{
+    font-family: 'Museo Sans Cyrl';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 66px;
+margin-bottom: 5px;
+}
+span{
+    font-family: 'Golos';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
+}
+
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  .modal-icon{
+    text-align: center;
+    margin-top: 130px;
+  }
+  
+  
