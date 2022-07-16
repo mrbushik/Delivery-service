@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import axios from 'axios';
 import styled from 'styled-components'
 import ThankToOrder from '../ThankToOrder/ThankToOrder';
+import ThemeContext from '../Context/Context';
 import './LeadForm.scss'
 
 const PrivacyPolicyLink = styled.a`
@@ -12,7 +13,8 @@ margin-left: 3px;
 `;
 
 function LeadForm({buttonText}) {
-  const [modal, setModal] = React.useState(false)
+ const {modal, setModal} = React.useContext(ThemeContext)
+  // const [modal, setModal] = React.useState(false)
     const [isChecked, setIsChecked] = React.useState(false);
     const { register, handleSubmit,reset, formState:{ errors } } = useForm({
       defaultValues: {

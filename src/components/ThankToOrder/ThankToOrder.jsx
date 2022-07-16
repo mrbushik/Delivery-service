@@ -2,11 +2,13 @@
 import React from 'react'
 import './ThankToOrder.scss'
 import { ThankHeart,} from '../../icons'
+import ThemeContext from '../Context/Context'
 
-function ThankToOrder({CloseingModal}) {
+function ThankToOrder({}) {
+    const {modal, setModal} = React.useContext(ThemeContext)
     const close = (e)=>{
         e.preventDefault()
-        CloseingModal(false)
+        setModal(false)
     }
   return (
     <>

@@ -11,13 +11,9 @@ import DiliveryStatus from '../components/DivileryStatus/DiliveryStatus'
 import Benefits from '../components/Benefits/Benefits'
 import SendAplication from '../components/SendAplication/SendAplication'
 import Footer from '../components/Footer/Footer'
-import ThemeContext from '../components/Context/Context'
 function mainPage() {
-  const [modal, setModal] = React.useState(false)
-  
   return (
     <>
-    <ThemeContext.Provider value={{}}></ThemeContext.Provider>
     <Header/>
     <HeaderText/>
     <LeadForm buttonText='ПЕРЕЗВОНИТЕ МНЕ'/>
