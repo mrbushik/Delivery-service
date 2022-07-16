@@ -121,3 +121,11 @@ input[type="checkbox"] {
 .form-errors{
     text-align: center;
 }
+@media(max-width:578px){
+    .lead-container{
+        flex-wrap: wrap;
+        input{
+            margin-bottom: 20px;
+        }
+    }
+}
