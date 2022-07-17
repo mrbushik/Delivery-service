@@ -17,8 +17,8 @@ function mainPage() {
     <Header/>
     <HeaderText/>
     <LeadForm buttonText='ПЕРЕЗВОНИТЕ МНЕ'/>
-    {/* <DeliveryImg/>
-    <ServisesPrises/>
+    <DeliveryImg/>
+    {/* <ServisesPrises/>
     <Processes/>
     <PayMethods/>
     <ImportantInfo/>

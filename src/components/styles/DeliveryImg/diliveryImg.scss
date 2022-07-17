@@ -49,7 +49,7 @@
     svg {
         position: absolute;
         margin-top: -135px;
-        width: 77%;
+        // width: 77%;
         margin-left: 168px;
         overflow-y: hidden;
         overflow-x: hidden;
@@ -151,4 +151,54 @@
     margin-left: 257px;
     margin-top: -51px;
 
+}
+@media(max-width:1450px){
+    .achievements-round,
+    .achievements-description{
+        display: none;
+    }
+}
+@media(max-width:860px){
+    .achievements-round,
+    .achievements-description{
+        display: block;
+    }
+    // 
+    .road-map,
+    .background-image__house{
+        display: none;
+    }
+    .achievements-deliveo__container{
+        margin-top: 190px;
+        position: relative;
+        display: flex;
+justify-content: center;
+    }
+    .achievements-round{
+        margin-left: 0;
+        display: flex;
+            p{
+                transform: unset;
+            }
+    }
+    .image-container{
+        margin-top: 350px;
+    }
+    .achievements-description{
+        transform: unset;
+margin-left: 0;
+    }
+    .warehouse-img{
+        svg{
+            max-width: 100%;
+        }
+    }
+    .road{
+        display: none;
+    }
+}
+@media(max-width:435px) {  
+    .image-container{
+        margin-top: 250px;
+    }
 }
