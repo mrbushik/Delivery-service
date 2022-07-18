@@ -67,3 +67,28 @@
         }
     }
 }
+
+@media(max-width: 580px) {
+
+    .methods-building__container,
+    .left-building__container,
+    .methods-sun,
+    .methods-clouds {
+        display: none;
+    }
+ 
+    .section-title {
+        font-size: 36px;
+        line-height: 40px;
+        text-align: left;
+        font-weight: 500;
+    }
+
+    .processes-decription {
+        p {
+            font-size: 20px;
+            line-height: 30px;
+            text-align: left;
+        }
+    }
+}

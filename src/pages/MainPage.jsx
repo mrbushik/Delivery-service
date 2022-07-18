@@ -19,9 +19,9 @@ function mainPage() {
     <LeadForm buttonText='ПЕРЕЗВОНИТЕ МНЕ'/>
     <DeliveryImg/>
     <ServisesPrises/>
-    {/* <Processes/>
+    <Processes/>
     <PayMethods/>
-    <ImportantInfo/>
+    {/* <ImportantInfo/>
     <DiliveryStatus/>
     <Benefits/>
     <SendAplication/>

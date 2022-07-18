@@ -158,29 +158,35 @@
         }
     }
 }
-@media (max-width: 900px){
-        .price-tabe__description{
-            width: unset;
-            max-width: 260px;
-        }
-        .table-title__divilery{
-            padding-left: 8px;
-        }
-        .price-tabe__description:last-child{
-            padding-left: 8px;
-        }
+
+@media (max-width: 900px) {
+    .price-tabe__description {
+        width: unset;
+        max-width: 260px;
+    }
+
+    .table-title__divilery {
+        padding-left: 8px;
+    }
+
+    .price-tabe__description:last-child {
+        padding-left: 8px;
+    }
 }
-@media (max-width: 630px){
-    .price-tabe__main{
+
+@media (max-width: 630px) {
+    .price-tabe__main {
         width: unset;
     }
-.price-tabe__collomn{
-    width: unset;
-   min-width: 67px;
+
+    .price-tabe__collomn {
+        width: unset;
+        min-width: 67px;
+    }
 }
-}
-@media (max-width: 380px){
-    .price-tabe__collomn{
-       min-width: 50px;
+
+@media (max-width: 380px) {
+    .price-tabe__collomn {
+        min-width: 50px;
     }
 }
