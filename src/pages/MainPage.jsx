@@ -21,9 +21,9 @@ function mainPage() {
     <ServisesPrises/>
     <Processes/>
     <PayMethods/>
-    {/* <ImportantInfo/>
+    <ImportantInfo/>
     <DiliveryStatus/>
-    <Benefits/>
+    {/* <Benefits/>
     <SendAplication/>
     <Footer/> */}
     </>

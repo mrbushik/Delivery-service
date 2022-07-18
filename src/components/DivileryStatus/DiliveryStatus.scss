@@ -72,3 +72,23 @@
         }
     }
 }
+
+@media(max-width: 800px) {
+
+    .dilivery-status__title,
+    .dilivery-status__subtitle {
+        text-align: left;
+    }
+
+    .dilivery-status__container {
+        flex-wrap: wrap;
+    }
+
+    .dilivery-status__item {
+        margin-top: 20px;
+    }
+
+    .dilivery-status__bg {
+        display: none;
+    }
+}

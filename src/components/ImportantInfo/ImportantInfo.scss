@@ -33,3 +33,14 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+@media(max-width: 580px) {
+    .importantInfo-rectngle {
+        margin-top: 135px;
+    }
+
+    .important-container__text {
+        max-width: 400px;
+        width: unset;
+    }
+}
