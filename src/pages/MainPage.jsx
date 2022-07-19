@@ -23,8 +23,8 @@ function mainPage() {
     <PayMethods/>
     <ImportantInfo/>
     <DiliveryStatus/>
-    {/* <Benefits/>
-    <SendAplication/>
+    <Benefits/>
+    {/* <SendAplication/>
     <Footer/> */}
     </>
   )
