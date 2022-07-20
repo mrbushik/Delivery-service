@@ -10,6 +10,7 @@ footer {
 
 .footer-logo__container {
     display: flex;
+    margin: 0 20px;
 
     h4 {
         font-family: 'Russo One';
@@ -26,6 +27,8 @@ footer {
 }
 
 .footer-owner__container {
+    margin: 0 20px;
+
     p {
         font-family: 'Golos';
         font-style: normal;
@@ -39,6 +42,8 @@ footer {
 .footer-privacy__container {
     display: flex;
     flex-direction: column;
+    margin: 0 20px;
+
 
     a {
         font-family: 'Golos';
@@ -53,12 +58,13 @@ footer {
 }
 
 .footer-contacts__container {
+    margin: -23px 20px 0;
+
     align-items: center;
     margin-top: -23px;
     display: flex;
     color: #4C0085;
 
-    a {}
 }
 
 .footer-number__link {

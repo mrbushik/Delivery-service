@@ -24,8 +24,8 @@ function mainPage() {
     <ImportantInfo/>
     <DiliveryStatus/>
     <Benefits/>
-    {/* <SendAplication/>
-    <Footer/> */}
+    <SendAplication/>
+    <Footer/>
     </>
   )
 }
