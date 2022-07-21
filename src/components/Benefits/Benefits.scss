@@ -106,9 +106,11 @@
     }
 }
 @media(max-width:1500px){
-    .car-icon{
-        display: none;
-    }
+    .benefit-icons{
+        &:first-child {
+            display: none;
+        }
+    }  
 }
 @media(max-width:900px){
     .benefit-round{
