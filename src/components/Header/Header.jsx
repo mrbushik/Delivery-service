@@ -1,5 +1,6 @@
 import React from 'react'
 import { Watch, Telegram, WhatsApp,} from '../../icons'
+import { Link } from 'react-router-dom';
 import './header.scss'
 
 function Header() {
@@ -12,10 +13,12 @@ function Header() {
         <a className='ddd' href='##'>Контакты</a>
     </div>
     <div className='logo-rectangle'>
-  <div className='logo-wrapper'>
+      <Link to="/">
+      <div className='logo-wrapper'>
   <Watch/>
    <h4>DOSTAVER</h4>
   </div>
+      </Link>
     </div>
     <div className='header-contacts__container'>
       <div className='header-info__container'>

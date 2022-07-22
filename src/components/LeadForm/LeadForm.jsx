@@ -4,6 +4,7 @@ import axios from 'axios';
 import styled from 'styled-components'
 import ThankToOrder from '../ThankToOrder/ThankToOrder';
 import ThemeContext from '../Context/Context';
+import { Link } from 'react-router-dom';
 import './LeadForm.scss'
 
 const PrivacyPolicyLink = styled.a`
@@ -53,8 +54,8 @@ function LeadForm({buttonText}) {
     </label>
         <p>Я согласен с
         {isChecked 
-        ? <PrivacyPolicyLink href='##'>политикой конфиденциальности</PrivacyPolicyLink>
-        : <a className='privacy-policy__link' href='##'>политикой конфиденциальности</a>}</p>
+        ? <Link to='/privacy'><PrivacyPolicyLink href='##'>политикой конфиденциальности</PrivacyPolicyLink></Link>
+        : <Link to='/privacy'><a className='privacy-policy__link' href='##'>политикой конфиденциальности</a></Link>}</p>
         </div>
         <div className='form-errors'>
         {errors.number && <p>В поле ничего нет, напишите ваш номер телефона</p>}
