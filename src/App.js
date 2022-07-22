@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import Rules from './pages/rules';
 function App() {
   const [modal, setModal] = React.useState(false)
 
@@ -15,7 +16,7 @@ function App() {
    <Routes>
     <Route path="/" element={<MainPage/>} exact/>
     <Route path="/privacy" element={<PrivacyPolicy/>} exact/>
-    <Route path="/privacy" element={<PrivacyPolicy/>} exact/>
+    <Route path="/rules" element={<Rules/>} exact/>
    </Routes>
    <Footer/>
    </ThemeContext.Provider>
