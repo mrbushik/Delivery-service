@@ -14,8 +14,7 @@ margin-left: 3px;
 `;
 
 function LeadForm({buttonText}) {
- const {modal, setModal} = React.useContext(ThemeContext)
-  // const [modal, setModal] = React.useState(false)
+    const {modal, setModal} = React.useContext(ThemeContext)
     const [isChecked, setIsChecked] = React.useState(false);
     const { register, handleSubmit,reset, formState:{ errors } } = useForm({
       defaultValues: {

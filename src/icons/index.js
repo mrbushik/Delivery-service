@@ -30,6 +30,7 @@ import { DiliveryInfoBg } from './DiliveryInfoBg'
 import { DiliveryCarBg } from './DiliveryCarBg'
 import { Tries } from './tries'
 import { ThankHeart } from './ThankHeart'
+import {Courer} from './Courer'
 export{
     Watch,
     WhatsApp,
@@ -63,4 +64,5 @@ export{
     DiliveryCarBg,
     Tries,
     ThankHeart,
+    Courer,
 }

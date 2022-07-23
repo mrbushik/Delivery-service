@@ -1,9 +1,17 @@
 import React from 'react'
 import InfoRectangle from '../InfoRectangle/InfoRectangle'
 import './RulesMassage.scss'
+import {Courer, Cloud, Plus} from '../../icons'
 function RulesMassage() {
   return (
     <div className="container">
+      <h1 className='Rules-title'>Полные правила</h1>
+      <div className="Rules-massage__courer"><Courer/></div>
+      <h3 className='Rules-description'>Процесс доставки</h3>
+      <div className='rules-massage__icons'>
+        <Cloud/>
+        <Plus/>
+      </div>
          <div className= 'massage-wrapper'>
 <div className="massage-container">
 <InfoRectangle rectangleNumber={1}
