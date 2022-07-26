@@ -1,49 +1,93 @@
-.massage-wrapper{
+.massage-wrapper {
     margin-bottom: 80px;
+    position: relative;
+    z-index: 2;
 }
-.rectangle-info-description{
-    p{
+
+.rectangle-info-description {
+    p {
         margin-top: 28px;
         margin-bottom: 0;
     }
 }
-.massage-container{
+
+.massage-container {
     margin-left: 15%;
-    &:nth-child(2){
+
+    &:nth-child(2) {
         margin-left: 40%;
     }
-    &:nth-child(3){
+
+    &:nth-child(3) {
         display: flex;
-justify-content: center;
+        justify-content: center;
     }
-    &:nth-child(5){
-       margin-left: 40%; 
+
+    &:nth-child(5) {
+        margin-left: 40%;
     }
-    &:nth-child(7){
-        margin-left: 40%; 
-     }
+
+    &:nth-child(7) {
+        margin-left: 40%;
+    }
 }
-.Rules-title{
+
+.Rules-title {
     font-family: 'Museo Sans Cyrl';
-font-style: normal;
-font-weight: 400;
-font-size: 46px;
-line-height: 66px;
-text-align: center;
-margin-top: 100px;
-margin-bottom: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 66px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
 }
-.Rules-massage__courer{
-text-align: center; 
+
+.Rules-massage__courer {
+    text-align: center;
 }
-.Rules-description{
-    
-font-family: 'Golos';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 30px;
-text-align: center;
-margin-top: 20px;
-margin-bottom: 45px;
+
+.Rules-description {
+
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.rules-massage__icons {
+    svg {
+        &:first-child {
+            position: absolute;
+            margin-left: 850px;
+            margin-top: 50px;
+        }
+
+        &:last-child {
+            position: absolute;
+            margin-top: 235px;
+            margin-left: 350px;
+        }
+    }
+
+}
+
+.rules-massage__end-icons {
+    svg {
+        &:first-child {
+            position: absolute;
+            margin-top: -500px;
+            margin-left: 300px;
+        }
+
+        &:last-child {
+            position: absolute;
+            margin-top: -310px;
+            margin-left: 850px;
+        }
+    }
 }

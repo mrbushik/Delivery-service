@@ -60,6 +60,10 @@ function RulesMassage() {
  isTitle={true}/>
 </div>
     </div>
+    <div className='rules-massage__end-icons'>
+        <Cloud/>
+        <Plus/>
+      </div>
     </div>
    
   )

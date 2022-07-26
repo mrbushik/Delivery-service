@@ -1,32 +1,50 @@
 import React from 'react'
-import { useForm } from "react-hook-form";
+import {
+  useForm
+} from "react-hook-form";
 import axios from 'axios';
 import styled from 'styled-components'
 import ThankToOrder from '../ThankToOrder/ThankToOrder';
 import ThemeContext from '../Context/Context';
-import { Link } from 'react-router-dom';
+import {
+  Link
+} from 'react-router-dom';
 import './LeadForm.scss'
 
-const PrivacyPolicyLink = styled.a`
+const PrivacyPolicyLink = styled.a `
 border-bottom: 1px dashed #FFFFFF;
 opacity: 1;
 margin-left: 3px;
 `;
 
-function LeadForm({buttonText}) {
-    const {modal, setModal} = React.useContext(ThemeContext)
-    const [isChecked, setIsChecked] = React.useState(false);
-    const { register, handleSubmit,reset, formState:{ errors } } = useForm({
-      defaultValues: {
-        number: '',
-      }
-    });
-    const onSubmit = data => {
-      axios.post(`https://jsonplaceholder.typicode.com/users`,{data})
+function LeadForm({
+  buttonText
+}) {
+  const {
+    modal,
+    setModal
+  } = React.useContext(ThemeContext)
+  const [isChecked, setIsChecked] = React.useState(false);
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: {
+      errors
+    }
+  } = useForm({
+    defaultValues: {
+      number: '',
+    }
+  });
+  const onSubmit = data => {
+    axios.post(`https://jsonplaceholder.typicode.com/users`, {
+        data
+      })
       .then(response => response)
-      reset()
-      setModal(true);
-    };
+    reset()
+    setModal(true);
+  };
   return (
     <>
     <div className="container">
@@ -67,4 +85,4 @@ function LeadForm({buttonText}) {
   )
 }
 
-export default LeadForm
+  export default LeadForm
