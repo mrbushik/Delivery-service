@@ -1,0 +1,37 @@
+.package{
+    margin-bottom: 50px;
+}
+.package-title {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.package-description {
+    p {
+        font-family: 'Golos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+
+        &:last-child {
+            max-width: 640px;
+            margin: 0 auto;
+        }
+    }
+}
+.package-rules__icons{
+text-align: center;
+svg{
+&:last-child{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 40px;
+}
+}
+}

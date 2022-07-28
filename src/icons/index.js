@@ -31,6 +31,7 @@ import { DiliveryCarBg } from './DiliveryCarBg'
 import { Tries } from './tries'
 import { ThankHeart } from './ThankHeart'
 import {Courer} from './Courer'
+import { Box } from './box'
 export{
     Watch,
     WhatsApp,
@@ -65,4 +66,5 @@ export{
     Tries,
     ThankHeart,
     Courer,
+    Box,
 }
