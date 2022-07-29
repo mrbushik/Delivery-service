@@ -32,6 +32,7 @@ import { Tries } from './tries'
 import { ThankHeart } from './ThankHeart'
 import {Courer} from './Courer'
 import { Box } from './box'
+import { infoIcon } from './infoIcon'
 export{
     Watch,
     WhatsApp,
@@ -67,4 +68,5 @@ export{
     ThankHeart,
     Courer,
     Box,
+    infoIcon,
 }
