@@ -1,0 +1,37 @@
+.row-container {
+    &__item {
+        border: 1px solid #FFFFFF;
+        width: 411px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Golos';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 30px;
+        &:last-child {
+            border-bottom-left-radius: 38px;
+            border-bottom-right-radius: 38px;
+        }
+
+        &:first-child {
+            border-top-left-radius: 38px;
+            border-top-right-radius: 38px;
+            border: top right;
+            -radius: 38px;
+            background: #FFFFFF;
+            color: #4C0085;
+            font-family: 'Golos';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
