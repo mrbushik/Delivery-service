@@ -1,10 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function HeaderMenu() {
-  return (
-    <>
-    </>
-  )
+  return <></>;
 }
 
-export default HeaderMenu
+export default HeaderMenu;
