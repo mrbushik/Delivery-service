@@ -7,7 +7,7 @@ import ThemeContext from '../Context/Context';
 import { Link } from 'react-router-dom';
 import './LeadForm.scss';
 
-const PrivacyPolicyLink = styled.a`
+const PrivacyPolicyLink = styled.span`
   border-bottom: 1px dashed #ffffff;
   opacity: 1;
   margin-left: 3px;
@@ -61,7 +61,7 @@ function LeadForm({ buttonText }) {
                 aria-hidden="true"
               />
             </label>
-            <p>
+            <div className="privacy-confirm__text">
               Я согласен с
               {isChecked ? (
                 <Link to="/privacy">
@@ -69,12 +69,12 @@ function LeadForm({ buttonText }) {
                 </Link>
               ) : (
                 <Link to="/privacy">
-                  <a className="privacy-policy__link" href="##">
+                  <span className="privacy-policy__link" href="##">
                     политикой конфиденциальности
-                  </a>
+                  </span>
                 </Link>
               )}
-            </p>
+            </div>
           </div>
           <div className="form-errors">
             {errors.number && <p>В поле ничего нет, напишите ваш номер телефона</p>}

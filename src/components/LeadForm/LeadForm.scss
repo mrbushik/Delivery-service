@@ -98,7 +98,7 @@ input[type="checkbox"] {
 }
 
 .lead-checkbox__container {
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,11 +121,19 @@ input[type="checkbox"] {
 .form-errors{
     text-align: center;
 }
+.privacy-confirm__text{
+    margin-left: 10px;
+}
 @media(max-width:578px){
     .lead-container{
         flex-wrap: wrap;
         input{
             margin-bottom: 20px;
         }
+    }
+}
+@media(max-width: 384px){
+    .privacy-confirm__text{
+        max-width: 184px;
     }
 }
