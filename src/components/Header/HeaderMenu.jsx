@@ -16,14 +16,20 @@ function HeaderMenu() {
       {activeMenu && (
         <div className="main-menu">
           <div onClick={() => handleMenu(false)} className="main-menu__close">
-            <span class="close"></span>
+            <span className="close"></span>
           </div>
           <div className="main-menu__links">
-            <Link to="rules">Правила</Link>
-            <a href="##">Тарифы</a>
-            <a className="ddd" href="##">
-              Контакты
-            </a>
+            <span>
+              <Link to="rules">Правила</Link>
+            </span>
+            <span>
+              <a href="##">Тарифы</a>
+            </span>
+            <span>
+              <a className="ddd" href="##">
+                Контакты
+              </a>
+            </span>
           </div>
         </div>
       )}
