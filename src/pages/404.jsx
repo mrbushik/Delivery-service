@@ -1,16 +1,20 @@
 import React from 'react';
+import ErrorForm from '../components/ErrorPage/ErrorForm';
+import DeliveryImg from '../components/styles/DeliveryImg/DeliveryImg';
 // import DeliveryImg from '../../components/styles/DeliveryImg/DeliveryImg';
 import { Warehouse, Car, House, BackgroundHouse, Road, Sun, Cloud, MiniCloud } from '../icons';
 
 function ErrorPage() {
   return (
-    <div>
+    <>
+      <ErrorForm />
       <div className="image-container">
         <Warehouse />
         <Car />
         <House />
       </div>
-    </div>
+      {/* <DeliveryImg /> */}
+    </>
   );
 }
 
