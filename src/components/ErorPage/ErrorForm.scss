@@ -1,0 +1,31 @@
+.error-page__title {
+    text-align: center;
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 66px;
+}
+
+.error-page__subtitle {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.error-link__wraper {
+    margin-top: 72px;
+    text-align: center;
+}
+
+.error-switch {
+    background: linear-gradient(180deg, #FFE149 0%, #FFD500 100%);
+    border-radius: 43px;
+    width: 284px;
+    height: 86px;
+    padding: 28px 42px;
+    text-align: center;
+}

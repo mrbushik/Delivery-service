@@ -7,7 +7,6 @@ import HeaderMenu from './HeaderMenu';
 function Header() {
   const [bugerMenu, setBurgerMenu] = React.useState(false);
   React.useEffect(() => {
-    console.log(window.innerWidth);
     if (window.innerWidth <= 1000) {
       setBurgerMenu(true);
     }

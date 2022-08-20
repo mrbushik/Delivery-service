@@ -1,5 +1,7 @@
 import React from 'react';
 import { Watch, Telegram, WhatsApp } from '../../icons';
+import { Link } from 'react-router-dom';
+
 import './Footer.scss';
 function Footer() {
   return (
@@ -15,8 +17,12 @@ function Footer() {
         </p>
       </div>
       <div className="footer-privacy__container">
-        <a href="##">Политика конфиденциальности</a>
-        <a href="##">Полные правила</a>
+        <Link to="/privacy">
+          <span href="##">Политика конфиденциальности</span>
+        </Link>
+        <Link to="/rules">
+          <span href="##">Полные правила</span>
+        </Link>
       </div>
       <div className="footer-contacts__container">
         <div className="header-info__container">

@@ -105,41 +105,50 @@
         margin-left: 1100px;
     }
 }
-@media(max-width:1500px){
-    .benefit-icons{
-        &:first-child {
-            display: none;
+
+@media(max-width:1500px) {
+    .benefit-icons {
+        .car-icon {
+            svg {
+                display: none;
+            }
         }
-    }  
-}
-@media(max-width:900px){
-    .benefit-round{
-        margin-top: 50px;
-    margin-right: 0;
-    &:last-child{
-        margin-top: 50px;
+
     }
+}
+
+@media(max-width:900px) {
+    .benefit-round {
+        margin-top: 50px;
+        margin-right: 0;
+
+        &:last-child {
+            margin-top: 50px;
+        }
     }
 
 }
-@media(max-width:570px){
-.benefit-round:last-child{
-    margin-right: 0;
-    margin-left: 0;
-    min-width: 500px;
+
+@media(max-width:570px) {
+    .benefit-round:last-child {
+        margin-right: 0;
+        margin-left: 0;
+        min-width: 500px;
+    }
 }
-}
-@media(max-width:470px){
-    .benefit-round:last-child{
-        p{
+
+@media(max-width:470px) {
+    .benefit-round:last-child {
+        p {
             max-width: 300px;
         }
     }
+}
+
+@media(max-width:340px) {
+    .benefit-round:last-child {
+        img {
+            width: 50%;
+        }
     }
-    @media(max-width:340px){
-        .benefit-round:last-child{
-            img{
-                width: 50%;
-            }
-        }
-        }
+}
