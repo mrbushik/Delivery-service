@@ -32,10 +32,10 @@ function Footer() {
           <p className="header-work__info">ежедневно с 08:00 до 20:00</p>
         </div>
         <div className="header-sotial">
-          <div className="header-rectangle">
+          <div className="footer-rectangle">
             <WhatsApp />
           </div>
-          <div className="header-rectangle">
+          <div className="footer-rectangle">
             <Telegram />
           </div>
         </div>

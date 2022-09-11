@@ -7,6 +7,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin-bottom: -10px;
+    flex-wrap: wrap;
 }
 
 .footer-logo__container {
@@ -75,4 +76,42 @@ footer {
     font-size: 24px;
     line-height: 29px;
     color: #4C0085;
+}
+
+@media (max-width: 600px) {
+
+    .footer-privacy__container,
+    .footer-owner__container {
+        margin: 0;
+        width: 222px;
+    }
+
+}
+.footer-rectangle {
+    width: 60px;
+    height: 40px;
+    background: #48DB45;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+    margin-top: 41px;
+
+    &:last-child {
+        background: #02ADFF;
+    }
+}
+
+@media(max-width:459px) {
+    .footer-contacts__container {
+        flex-wrap: wrap;
+        justify-content:start;
+        width: 222px;
+
+        margin: -20px 0 25px;
+    }
+    .footer-rectangle{
+        margin-top: 20px;
+    }
 }
