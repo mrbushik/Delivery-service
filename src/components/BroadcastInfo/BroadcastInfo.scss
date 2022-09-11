@@ -1,6 +1,7 @@
 .broadcast-info{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .broadcast-title{
     font-family: 'Golos';
@@ -13,4 +14,7 @@
 }
 .broadcast-info__section{
     margin-bottom: 80px;
+}
+.row-container{
+    margin-bottom: 20px;
 }

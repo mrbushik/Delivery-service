@@ -28,6 +28,8 @@
 
 .rectangle-title__container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .rectangle-title {
@@ -62,7 +64,11 @@
     font-size: 20px;
     line-height: 30px;
 }
-
+@media (max-width: 605px) {
+.rectangle-number__round{
+    margin-right: 10px;
+}
+}
 @media (max-width: 430px) {
     .info-rectangle__wraper {
         padding: 15px;
